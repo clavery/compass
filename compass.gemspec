@@ -2,9 +2,9 @@ path = "#{File.dirname(__FILE__)}/lib"
 require File.join(path, 'compass/version')
 
 Gem::Specification.new do |gemspec|
-  gemspec.name = "compass"
+  gemspec.name = "compass-sourcemaps"
   gemspec.version = Compass::VERSION # Update VERSION.yml file to set this.
-  gemspec.description = "Compass is a Sass-based Stylesheet Framework that streamlines the creation and maintenance of CSS."
+  gemspec.description = "Compass is a Sass-based Stylesheet Framework that streamlines the creation and maintenance of CSS. SCSS sourcemaps support fork."
   gemspec.homepage = "http://compass-style.org"
   gemspec.authors = ["Chris Eppstein", "Scott Davis", "Eric A. Meyer", "Brandon Mathis", "Anthony Short", "Nico Hagenburger"]
   gemspec.email = "chris@eppsteins.net"
