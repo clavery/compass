@@ -1,5 +1,13 @@
 # Compass Stylesheet Authoring Framework
 
+This fork adds in simple support for SCSS sourcemaps support in SASS version >= 3.3.0.alpha. This is required to support newer versions of chrome.
+
+Use the following in config.rb to enable it:
+
+```ruby
+sass_options = {:sourcemap => true}
+```
+
 Build Status: [![Build Status](https://travis-ci.org/chriseppstein/compass.png)](https://travis-ci.org/chriseppstein/compass)
 
 Code Quality: [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/chriseppstein/compass)

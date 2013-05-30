@@ -13,9 +13,9 @@ Gem::Specification.new do |gemspec|
   #gemspec.has_rdoc = false #deprecated
   gemspec.require_paths = %w(lib)
   gemspec.rubygems_version = "1.3.5"
-  gemspec.summary = %q{A Real Stylesheet Framework}
+  gemspec.summary = %q{A Real Stylesheet Framework (SCSS sourcemaps support)}
 
-  gemspec.add_dependency 'sass', '~> 3.1'
+  gemspec.add_dependency 'sass', '> 3.2.5', '< 3.4'
   gemspec.add_dependency 'chunky_png', '~> 1.2'
   gemspec.add_dependency 'fssm', '>= 0.2.7'
 
