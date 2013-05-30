@@ -148,7 +148,8 @@ module Compass
       write_file(css_filename, css_content, options.merge(:force => true, :extra => duration))
 
       if sass_options[:sourcemap]
-        sourcemap = map.to_json(:css_path => css_filename, :sourcemap_path => "#{css_filename}.map")
+        css_filename_clean = css_filename.gsub(/\\/, '/')
+        sourcemap = map.to_json(:css_path => css_filename_clean, :sourcemap_path => "#{css_filename_clean}.map")
         write_file("#{css_filename}.map", sourcemap, options.merge(:force => true, :extra => duration))
       end
 
