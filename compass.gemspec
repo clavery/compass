@@ -15,7 +15,7 @@ Gem::Specification.new do |gemspec|
   gemspec.rubygems_version = "1.3.5"
   gemspec.summary = %q{A Real Stylesheet Framework (SCSS sourcemaps support)}
 
-  gemspec.add_dependency 'sass', '> 3.2.5', '< 3.4'
+  gemspec.add_dependency 'sass', '=3.3.0.alpha.134'
   gemspec.add_dependency 'chunky_png', '~> 1.2'
   gemspec.add_dependency 'fssm', '>= 0.2.7'
 
